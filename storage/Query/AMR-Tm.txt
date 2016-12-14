@@ -1,0 +1,5 @@
+-- host 192.168.3.60 / PW : Julio123$
+
+schema : premasol
+
+select s.site,s.sn,max(s.cet) from premasol.std_ls2_4w s group by s.site  order by max(s.cet);

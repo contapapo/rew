@@ -1,0 +1,1 @@
+SELECT  site,  sn, MAX( cet) AS cet FROM premasol.std_ls2_4w  GROUP BY  site  ORDER BY site, MAX( cet);
